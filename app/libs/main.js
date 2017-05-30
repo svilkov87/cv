@@ -10,17 +10,27 @@ $(document).ready(function(){
      $("#loading").delay(100).fadeOut("slow");
      });
 
-    // параллакс
+    // серый фон при скролле
     $(window).scroll(function () {
         var st = $(this).scrollTop();
 
         // console.log(st);
-        $(".one, .wrapp_head").css({
-          "filter": "grayscale(" + st / 300 + ")"
+        $("#head").css({
+          "filter": "grayscale(" + st / 100 + ")"
           // "bottom" : "translate3d(0px, " + st/ 100  + "%, .01px)"
           // "-webkit-transform" : "translate3d(0px, " + st/ 100  + "%, .01px)"
         });
     });
+
+    //параллакс фона
+    $(window).scroll(function () {
+        var movement = -parseInt($(this).scrollTop() / 2);
+        $('#head').css({
+            backgroundPosition: 'center ' + movement + 'px'
+        });
+    });
+
+
 
 
     //меню справа
@@ -166,67 +176,6 @@ $(window).scroll(function(){
     $(".menu").fadeToggle(500);
   });
 
-//аудио-плеер
-    var mainWrapp = $(".wrapp_item"),
-        chidPlay = mainWrapp.find(".span_play"),
-        chidPause = mainWrapp.find(".span_pause"),
-        tBlockPos = mainWrapp.find(".t_body_bott");
-
-  // показать/скрыть конпку воспроизведения
-  mainWrapp.mouseenter(function(){
-    $(this).find(".span_play").hide();
-      $(this).find(".span_pause").show();
-      var sound = $('audio', $(this));
-      sound[0].play();
-      var getOrder = $(this).find('.get_order').css({
-          "opacity": "1"
-      });
-  });
-    mainWrapp.mouseleave(function () {
-        $(this).find(".span_pause").hide();
-        $(this).find(".span_play").show();
-        var sound = $('audio', $(this));
-        sound[0].pause();
-        var hideOrder = $(this).find('.get_order').css({
-            "opacity": "0"
-        });
-    });
-
-    // воспроизведение роликов
-    chidPlay.click(function () {
-
-        // $(this).hide();
-        //
-        // $(this).next(".span_pause").show();
-        //
-        // var sound = $('audio', $(this));
-        // sound[0].play();
-        //
-        // var getOrder = $(this).parents(mainWrapp).find('.get_order').css({
-        //     "opacity": "1"
-        //   });
-        // var ParentMain = $(this).parents(mainWrapp);
-        //
-        // var otherGetOrders = mainWrapp.not(ParentMain).find('.get_order').css({
-        //     "opacity": "0"
-        // });
-
-        chidPause.click(function () {
-            // $(this).hide();
-            // $(this).prev(".span_play").show();
-            // sound[0].pause();
-          });
-
-        //запрещаем одновременное воспроизведение
-        $('audio').on('play', function() {
-            $('audio').addClass('stoped').removeClass('playing');
-            $(this).removeClass('stoped').addClass('playing');
-            $('.stoped').each(function() {
-                $(this).trigger('pause');
-                $(this)[0].currentTime = 0;
-            })
-        });
-    });
 
     // форма отправки заказа
     $('.btn_modal').click(function(e){
@@ -259,40 +208,17 @@ $(window).scroll(function(){
 
     //Плавный скролл до блока .div по клику на .scroll
   //Документация: https://github.com/flesler/jquery.scrollTo
-  $("#fa-angle-down").click(function() {
-    $.scrollTo($(".main_about"), 800, {
+  $(".button_go").click(function() {
+    $.scrollTo($("#about_me"), 800, {
       offset: 0
     });
   });
 
-    $("#fa-angle-down-one").click(function() {
-    $.scrollTo($(".two"), 800, {
-      offset: 0
-    });
-  });
-    
 
-    //modal
-    var modal = document.getElementById('myModlal'),
-        btnModal = document.getElementById('linkModal'),
-        close = document.getElementsByClassName('close')[0];
-
-    btnModal.onclick = function () {
-        modal.style.display = "block";
-    }
-    close.onclick = function () {
-        modal.style.display = "none";
-    }
-    //закрытие модал, если юзер кликает на bg
-    window.onclick = function (event) {
-        if (event.target == modal) {
-            modal.style.display = "none";
-        }
-    }
 
   // показать кнопку наверх
   $(window).scroll(function() {
-    if ($(this).scrollTop() > 350){
+    if ($(this).scrollTop() > 250){
       $('#top').fadeIn(100);
     }
     else{
@@ -323,21 +249,3 @@ $(window).scroll(function(){
 
 });
 
-
-//modalPrice
-var linkPrice = document.getElementsByClassName('price_block')[0],
-    myPrice = document.getElementById('myPrice'),
-    closePrice = document.getElementsByClassName('closePrice')[0];
-
-linkPrice.onclick = function () {
-    myPrice.style.display = "block";
-}
-closePrice.onclick = function () {
-    myPrice.style.display = "none";
-}
-//закрытие модал, если юзер кликает на bg
-window.onclick = function (event) {
-    if (event.target == myPrice) {
-        myPrice.style.display = "none";
-    }
-}

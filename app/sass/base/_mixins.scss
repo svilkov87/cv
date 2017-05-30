@@ -26,6 +26,13 @@
   -webkit-filter: grayscale($px);
   filter: grayscale($px);
 }
+@mixin bright($px){
+  -o-filter: brightness($px);
+  -ms-filter: brightness($px);
+  -moz-filter: brightness($px);
+  -webkit-filter: brightness($px);
+  filter: brightness($px);
+}
 
 @mixin clr {
   &:after, &:before {

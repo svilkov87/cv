@@ -1,74 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="dca786b0-9ced-4064-8bb8-28895d4c193d" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/css/main-808246612a.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/img/Bill-100.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/img/Blog_Filled-50.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/img/Check File-96.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/img/Christmas Star-96.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/img/Clock-96.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/img/Great Britain Filled-100.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/img/Great Britain-100.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/img/Microphone Filled-100.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/img/Microphone-96 (1).png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/img/Microphone-96.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/img/Money Box-96.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/img/Privacy Filled-100.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/img/Purchase Order-100.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/img/Saturation Filled-100.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/img/Survey Filled-100.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/img/Time-100.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/img/VK.com Filled-100 (1).jpeg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/img/VK.com Filled-100 (1).png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/img/VK.com Filled-100 (2).png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/img/VK.com Filled-100 (3).png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/img/VK.com Filled-100.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/img/Voice Recognition Scan Filled-100.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/img/abstract-2031241_640.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/img/audience-868074_1920.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/img/audio_city.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/img/ban.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/img/banner.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/img/circular-clock.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/img/custom_showcase2_img.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/img/dj-690986_1920.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/img/dkeb0-m9iia-claus-grunstaudl.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/img/facebook.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/img/farmer.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/img/farmer.zip" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/img/farmer/__MACOSX/farmer/._farmer_@2X.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/img/farmer/__MACOSX/farmer/._readme.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/img/farmer/farmer/farmer_@2X.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/img/farmer/farmer/readme.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/img/headphone-1129896_640.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/img/headphone-1868612_1920.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/img/headphones-926072_1920.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/img/linkedin.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/img/microphone-1003559_1920.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/img/microphone.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/img/money-bag.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/img/oklqgsct8qs-matt-botsford.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/img/paint-1280556_1920.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/img/profits.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/img/sound-bars.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/img/sound-waves (1).png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/img/sound-waves.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/img/tie-690084_1920.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/img/turntable-1109588_1920.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/img/tuxedo.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/img/twitter.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/img/vkontakte.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/img/voice-recorder.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/lk.html" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/css/libs.min.css" afterPath="$PROJECT_DIR$/app/css/libs.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/index.html" afterPath="$PROJECT_DIR$/app/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/libs/main.js" afterPath="$PROJECT_DIR$/app/libs/main.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/manifests/rev-manifest.json" afterPath="$PROJECT_DIR$/app/manifests/rev-manifest.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/sass/base/_mixins.scss" afterPath="$PROJECT_DIR$/app/sass/base/_mixins.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/sass/main.scss" afterPath="$PROJECT_DIR$/app/sass/main.scss" />
-    </list>
+    <list default="true" id="dca786b0-9ced-4064-8bb8-28895d4c193d" name="Default" comment="" />
     <ignored path="cv.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -227,47 +160,7 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cv" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cv" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sass" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cv" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cv" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sass" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="base" />
+              <option name="myItemId" value="include" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -322,19 +215,19 @@
       <option name="presentableId" value="Default" />
       <updated>1495799701079</updated>
       <workItem from="1495799705933" duration="585000" />
-      <workItem from="1495800757665" duration="27414000" />
+      <workItem from="1495800757665" duration="27503000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27999000" />
+    <option name="totallyTimeSpent" value="28088000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="317" y="5" width="1022" height="719" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24116424" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24116424" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />

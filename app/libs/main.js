@@ -10,6 +10,17 @@ $(document).ready(function(){
      $("#loading").delay(100).fadeOut("slow");
      });
 
+
+    // prigress bar
+    $('.skillbar').each(function(){
+        jQuery(this).find('.skillbar-bar').animate({
+            width:jQuery(this).attr('data-percent')
+        },2000);
+    });
+
+
+
+
     // серый фон при скролле
     $(window).scroll(function () {
         var st = $(this).scrollTop();
@@ -225,6 +236,8 @@ $(window).scroll(function(){
       $('#top').fadeOut(100);
     }
   });
+
+
 
   //Кнопка "Наверх"
   //Документация:

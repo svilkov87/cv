@@ -230,8 +230,127 @@ body{
 
 //section about me
 #about_me{
-  height: 100vh;
-  background: #6ce26c;
+  min-height: 650px;
+  background: #fff;
+  padding: 60px;
+  overflow: hidden;
+  margin-left: 280px;
+  @include tablet_max{
+    margin-left: 0;
+  }
+  .about_title{
+    text-align: center;
+    margin-bottom: 30px;
+    h2{
+      color: #1a1a1a;
+      font-weight: 700;
+      display: inline-block;
+      margin: 0;
+      position: relative;
+      padding: 0 5px;
+      font-size: 25px;
+      text-transform: uppercase;
+    }
+  }
+  .content_section{
+    .story{
+      font-size: 14px;
+      line-height: 28px;
+      text-align: center;
+      margin-bottom: 30px;
+      font-weight: 300;
+      .story_name{
+        color: orangered;
+      }
+    }
+    .items_profile{
+      .ul_info{
+        .li_info{
+          padding: 10px 0 0;
+          margin-bottom: 11px;
+          font-size: 14px;
+          line-height: 28px;
+          font-weight: 300;
+          span{
+            color: #1a1a1a;
+            font-weight: 700;
+          }
+        }
+      }
+    }
+    .skillbar {
+      font-family: 'Open Sans', 'sans-serif';
+      position:relative;
+      display:block;
+      margin-bottom:15px;
+      width:100%;
+      background:#eee;
+      height:35px;
+      border-radius:3px;
+      -moz-border-radius:3px;
+      -webkit-border-radius:3px;
+      -webkit-transition:0.4s linear;
+      -moz-transition:0.4s linear;
+      -ms-transition:0.4s linear;
+      -o-transition:0.4s linear;
+      transition:0.4s linear;
+      -webkit-transition-property:width, background-color;
+      -moz-transition-property:width, background-color;
+      -ms-transition-property:width, background-color;
+      -o-transition-property:width, background-color;
+      transition-property:width, background-color;
+    }
+
+    .skillbar-title {
+      position:absolute;
+      top:0;
+      left:0;
+      font-weight:bold;
+      font-size:13px;
+      color:#fff;
+      background:#6adcfa;
+      -webkit-border-top-left-radius:3px;
+      -webkit-border-bottom-left-radius:4px;
+      -moz-border-radius-topleft:3px;
+      -moz-border-radius-bottomleft:3px;
+      border-top-left-radius:3px;
+      border-bottom-left-radius:3px;
+    }
+
+    .skillbar-title span {
+      display:block;
+      background:rgba(0, 0, 0, 0.1);
+      padding:0 20px;
+      height:35px;
+      line-height:35px;
+      -webkit-border-top-left-radius:3px;
+      -webkit-border-bottom-left-radius:3px;
+      -moz-border-radius-topleft:3px;
+      -moz-border-radius-bottomleft:3px;
+      border-top-left-radius:3px;
+      border-bottom-left-radius:3px;
+    }
+
+    .skillbar-bar {
+      height:35px;
+      width:0px;
+      background:#6adcfa;
+      border-radius:3px;
+      -moz-border-radius:3px;
+      -webkit-border-radius:3px;
+    }
+
+    .skill-bar-percent {
+      position:absolute;
+      right:10px;
+      top:0;
+      font-size:11px;
+      height:35px;
+      line-height:35px;
+      color:#444;
+      color:rgba(0, 0, 0, 0.4);
+    }
+    }
 }
 
 

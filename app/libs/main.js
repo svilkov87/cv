@@ -88,23 +88,7 @@ $(document).ready(function(){
         // анимируем переход к блоку, время: 800 мс
         $('body,html').animate({scrollTop: top}, 800);
     });
-
-//test
-$(window).scroll(function(){
-  var wHeight = $(window).scrollTop(),
-    elHeight = $('#about_company').offset().top;
-    haftEl = elHeight/1.5;
-
-    if (wHeight >= haftEl) {
-      sScroll.fadeIn(1000);
-    }
-    else{
-      sScroll.fadeOut();
-    }
-  console.log(elHeight);
-});
-
-  
+     
 
 
     //gradient animations

@@ -88,7 +88,7 @@ $(document).ready(function(){
         // анимируем переход к блоку, время: 800 мс
         $('body,html').animate({scrollTop: top}, 800);
     });
-     
+
 
 
     //gradient animations
@@ -242,6 +242,13 @@ $(document).ready(function(){
         else{
             $('.nav').removeClass("fixed");
         }
+    });
+
+    //показать менб слева
+    $("#menu_toggle").click(function() {
+        $(this).toggleClass('mleft');
+        $('.side_menu').toggleClass('sleft');
+        $('.main').toggleClass('on');
     });
 
 });

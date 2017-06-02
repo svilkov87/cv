@@ -25,7 +25,7 @@ ini_set('display_startup_errors', TRUE);
     <link rel="stylesheet" href="app/css/bootstrap.min.css">
     <link rel="stylesheet" href="app/css/animate.css">
     <script src="app/libs/jquery/jquery-1.11.1.min.js"></script>
-    <link rel="stylesheet" href="app/css/main-b6ef1013ce.css">
+    <link rel="stylesheet" href="app/css/main-0f9838173c.css">
     <script src="app/libs/jquery.bxslider/jquery.bxslider.min.js"></script>
     <script>
         $(document).ready(function(){
@@ -124,40 +124,67 @@ ini_set('display_startup_errors', TRUE);
                             </ul>
                         </div>
                         <div class="col-md-6">
-                            <div class="skillbar clearfix wow fadeIn" data-wow-delay=".3s" data-percent="95%">
-                                <div class="skillbar-title" style="background: #88cd2a;"><span>HTML5</span></div>
-                                <div class="skillbar-bar" style="background: #88cd2a;"></div>
-                                <div class="skill-bar-percent">95%</div>
-                            </div>
-                            <!---  CSS --->
-                            <div class="skillbar clearfix " data-percent="85%">
-                                <div class="skillbar-title" style="background: #ffa1c9;"><span>CSS/SASS</span></div>
-                                <div class="skillbar-bar" style="background: #ffa1c9;"></div>
-                                <div class="skill-bar-percent">85%</div>
-                            </div>
-                            <!---- /CSS --->
-                            <!----- jQuery  ------->
-                            <div class="skillbar clearfix " data-percent="60%">
-                                <div class="skillbar-title" style="background: #00a8ff;"><span>Java Script/Jquery</span>
+                            <div class="row">
+                                <div class="main_wr wow fadeIn" data-wow-delay=".8s">
+                                    <div class="skills_wrapp">
+                                        <div class="sk_top">
+                                            <span>В ближайшей перспективе - Pug</span>
+                                        </div>
+                                        <div class="sk_bottom">
+                                            <span>HTML5</span>
+                                        </div>
+                                    </div>
                                 </div>
-                                <div class="skillbar-bar" style="background: #00a8ff;"></div>
-                                <div class="skill-bar-percent">60%</div>
-                            </div>
-                            <div class="skillbar clearfix " data-percent="50%">
-                                <div class="skillbar-title" style="background: #6a82ff;"><span>PHP (functional style)/ MYSQL</span>
+                                <div class="main_wr wow fadeIn" data-wow-delay="1s">
+                                    <div class="skills_wrapp">
+                                        <div class="sk_top">
+                                            <span>Использую препроцессор SCSS</span>
+                                        </div>
+                                        <div class="sk_bottom">
+                                            <span>CSS3</span>
+                                        </div>
+                                    </div>
                                 </div>
-                                <div class="skillbar-bar" style="background: #6a82ff;"></div>
-                                <div class="skill-bar-percent">50%</div>
-                            </div>
-                            <div class="skillbar clearfix " data-percent="50%">
-                                <div class="skillbar-title" style="background: #ff5e70;"><span>GULP</span></div>
-                                <div class="skillbar-bar" style="background: #ff5e70;"></div>
-                                <div class="skill-bar-percent">50%</div>
-                            </div>
-                            <div class="skillbar clearfix " data-percent="65%">
-                                <div class="skillbar-title" style="background: #000;"><span>GIT</span></div>
-                                <div class="skillbar-bar" style="background: #000;"></div>
-                                <div class="skill-bar-percent">65%</div>
+                                <div class="main_wr wow fadeIn" data-wow-delay="1.1s">
+                                    <div class="skills_wrapp">
+                                        <div class="sk_top">
+                                            <span>Изучение нативного JS +(Angular,React)</span>
+                                        </div>
+                                        <div class="sk_bottom">
+                                            <span>JS(JQUERY/AJAX)</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="main_wr wow fadeIn" data-wow-delay="1.3s">
+                                    <div class="skills_wrapp">
+                                        <div class="sk_top">
+                                            <span>Процедурный стиль</span>
+                                        </div>
+                                        <div class="sk_bottom">
+                                            <span>PHP</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="main_wr wow fadeIn" data-wow-delay="1.5s">
+                                    <div class="skills_wrapp">
+                                        <div class="sk_top">
+                                            <span>Сборка проекта</span>
+                                        </div>
+                                        <div class="sk_bottom">
+                                            <span>GULP</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="main_wr wow fadeIn" data-wow-delay="1.7s">
+                                    <div class="skills_wrapp">
+                                        <div class="sk_top">
+                                            <span><a href="https://github.com/svilkov87">Мой аккаунт</a></span>
+                                        </div>
+                                        <div class="sk_bottom">
+                                            <span>GIT</span>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>

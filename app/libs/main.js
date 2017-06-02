@@ -10,17 +10,6 @@ $(document).ready(function(){
      $("#loading").delay(100).fadeOut("slow");
      });
 
-
-    // prigress bar
-    $('.skillbar').each(function(){
-        jQuery(this).find('.skillbar-bar').animate({
-            width:jQuery(this).attr('data-percent')
-        },2000);
-    });
-
-
-
-
     // серый фон при скролле
     $(window).scroll(function () {
         var st = $(this).scrollTop();
@@ -34,29 +23,13 @@ $(document).ready(function(){
     });
 
     //параллакс фона
-    $(window).scroll(function () {
-        var movement = -parseInt($(this).scrollTop() / 2);
-        $('#head').css({
-            backgroundPosition: 'center ' + movement + 'px'
-        });
-    });
+    // $(window).scroll(function () {
+    //     var movement = -parseInt($(this).scrollTop() / 3);
+    //     $('#head').css({
+    //         backgroundPosition: 'center ' + movement + 'px'
+    //     });
+    // });
 
-
-
-
-    //меню справа
-    $("#show_side").click(function () {
-        $(".side_fixed").toggleClass('fixed_go_left');
-        $(this).toggleClass('rotate_down_side');
-        $(".filter_bg").toggleClass('filter_blur');
-        // $(".filter_bg").css({
-        //     'filter': 'blur(3px)',
-        //     '-webkit-filter': 'blur(3px)',
-        //     '-moz-filter': 'blur(3px)',
-        //     '-o-filter': 'blur(3px)',
-        //     '-ms-filter': 'blur(3px)'
-        // });
-    });
 
     //скролл side главная страница
     $(window).scroll(function () {
@@ -155,16 +128,6 @@ $(document).ready(function(){
     setInterval(updateGradient,10);
 
 
-    //выпадающий доп меню в лк (навигация)
-  $("#showNav").click(function(){
-    $(".ul_child").slideToggle(100);
-  });
-
-  //убрать садбар
-    $("#close_sb").click(function(){
-    $(".sidebar").toggleClass('close');
-    $(".wrapp_content").toggleClass('wr_left');
-  });
 
 // выпадающее меню
   $("#justify_nav").click(function(){
@@ -250,6 +213,5 @@ $(document).ready(function(){
         $('.side_menu').toggleClass('sleft');
         $('.main').toggleClass('on');
     });
-
 });
 

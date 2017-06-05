@@ -25,7 +25,7 @@ ini_set('display_startup_errors', TRUE);
     <link rel="stylesheet" href="app/css/bootstrap.min.css">
     <link rel="stylesheet" href="app/css/animate.css">
     <script src="app/libs/jquery/jquery-1.11.1.min.js"></script>
-    <link rel="stylesheet" href="app/css/main-0f9838173c.css">
+    <link rel="stylesheet" href="app/css/main-44a921988e.css">
     <script src="app/libs/jquery.bxslider/jquery.bxslider.min.js"></script>
     <script>
         $(document).ready(function(){
@@ -78,7 +78,7 @@ ini_set('display_startup_errors', TRUE);
                 </li>
                 <li class="li_side"><a href="#ui">UI-elements</a></li>
                 <li class="li_side"><a href="#">Примеры работ</a></li>
-                <li class="li_side"><a href="#">Контакты</a></li>
+                <li class="li_side write_me"><a href="#">Контакты</a></li>
             </ul>
         </div>
     </div>
@@ -193,6 +193,10 @@ ini_set('display_startup_errors', TRUE);
         </div>
     </section>
     <section class="cv_sections" id="ui">
+        <div class="about_ul">
+            <h2>UI</h2>
+            <p class="ui_desc">В данном разделе представлены элементы интерфейса, а так же эффекты, которые я могу использовать в работе. Условно:</p>
+        </div>
         <div class="col-md-12">
             <div class="row">
                 <div class="col-md-4">
@@ -219,7 +223,34 @@ ini_set('display_startup_errors', TRUE);
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4"></div>
+                <div class="col-md-4">
+                    <div class="three">
+                        <img src="app/img/Cute-Girlnbspfond-ecran-hd3.jpg"/>
+                        <div class="top">
+                        </div>
+                        <div class="fade">
+                            test
+                        </div>
+                        <div class="bottom">
+                            <p class="bott">description</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-4">
+                    <div class="four">
+                        <div class="nav_wrapp">
+                            <span class="menu_touch">menu</span>
+                        </div>
+                        <div class="menu_down">
+                            <ul class="ul_four">
+                                <li class="li li_four">one</li>
+                                <li class="li li_four">two</li>
+                                <li class="li li_four">three</li>
+                                <li class="li li_four">four</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </section>

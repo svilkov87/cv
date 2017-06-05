@@ -135,6 +135,17 @@ $(document).ready(function(){
   });
 
 
+    //написать мне
+    $(".write_me").click(function () {
+        $(".main").addClass('back');
+    });
+
+    //написать мне
+    $(".menu_touch").click(function () {
+        $(".menu_down").slideToggle();
+    });
+
+
     // форма отправки заказа
     $('.btn_modal').click(function(e){
         e.preventDefault();

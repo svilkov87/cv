@@ -140,9 +140,19 @@ $(document).ready(function(){
         $(".main").addClass('back');
     });
 
-    //написать мне
+    //меню четвертого примера
     $(".menu_touch").click(function () {
-        $(".menu_down").slideToggle();
+        $(".menu_down").slideToggle(150);
+    });
+
+    //меню пятого примера
+    $(".menu_touch_five").click(function () {
+        $('.menu_down_five').toggleClass('up');
+    });
+
+    //меню шестого примера
+    $(".menu_touch_six").click(function () {
+        $('.menu_down_six').toggleClass('up');
     });
 
 

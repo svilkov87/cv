@@ -25,7 +25,7 @@ ini_set('display_startup_errors', TRUE);
     <link rel="stylesheet" href="app/css/bootstrap.min.css">
     <link rel="stylesheet" href="app/css/animate.css">
     <script src="app/libs/jquery/jquery-1.11.1.min.js"></script>
-    <link rel="stylesheet" href="app/css/main-44a921988e.css">
+    <link rel="stylesheet" href="app/css/main-cd1cb431d3.css">
     <script src="app/libs/jquery.bxslider/jquery.bxslider.min.js"></script>
     <script>
         $(document).ready(function(){
@@ -195,11 +195,11 @@ ini_set('display_startup_errors', TRUE);
     <section class="cv_sections" id="ui">
         <div class="about_ul">
             <h2>UI</h2>
-            <p class="ui_desc">В данном разделе представлены элементы интерфейса, а так же эффекты, которые я могу использовать в работе. Условно:</p>
+            <div class="ui_desc">В данном разделе представлены элементы интерфейса, а так же эффекты, которые я могу использовать в работе. Условно:</div>
         </div>
         <div class="col-md-12">
             <div class="row">
-                <div class="col-md-4">
+                <div class="col-md-4 col-sm-4">
                     <div class="op">
                         <img src="../app/img/Cute-Girlnbspfond-ecran-hd3.jpg"/>
                         <div class="top">
@@ -211,7 +211,7 @@ ini_set('display_startup_errors', TRUE);
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-4 col-sm-4">
                     <div class="ot">
                         <img src="../app/img/Cute-Girlnbspfond-ecran-hd3.jpg"/>
                         <div class="top">
@@ -223,7 +223,7 @@ ini_set('display_startup_errors', TRUE);
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-4 col-sm-4">
                     <div class="three">
                         <img src="app/img/Cute-Girlnbspfond-ecran-hd3.jpg"/>
                         <div class="top">
@@ -247,6 +247,48 @@ ini_set('display_startup_errors', TRUE);
                                 <li class="li li_four">two</li>
                                 <li class="li li_four">three</li>
                                 <li class="li li_four">four</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-4">
+                    <div class="five">
+                        <div class="nav_wrapp">
+                            <span class="menu_touch_five">menu</span>
+                        </div>
+                        <div class="menu_down_five">
+                            <ul class="ul_four">
+                                <li class="li_five"><div class="li_wrapp">one</div></li>
+                                <li class="li_five"><div class="li_wrapp">two</div></li>
+                                <li class="li_five"><div class="li_wrapp">three</div></li>
+                                <li class="li_five"><div class="li_wrapp">four</div></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-4">
+                    <div class="six">
+                        <div class="nav_wrapp">
+                            <span class="menu_touch_six">menu</span>
+                        </div>
+                        <div class="menu_down_six">
+                            <ul class="ul_six">
+                                <li class="li_six">
+                                    <div class="li_wrapp">one</div>
+                                    <span>100$</span>
+                                </li>
+                                <li class="li_six">
+                                    <div class="li_wrapp">two</div>
+                                    <span>100$</span>
+                                </li>
+                                <li class="li_six">
+                                    <div class="li_wrapp">three</div>
+                                    <span>100$</span>
+                                </li>
+                                <li class="li_six">
+                                    <div class="li_wrapp">four</div>
+                                    <span>100$</span>
+                                </li>
                             </ul>
                         </div>
                     </div>

@@ -25,7 +25,7 @@ ini_set('display_startup_errors', TRUE);
     <link rel="stylesheet" href="app/css/bootstrap.min.css">
     <link rel="stylesheet" href="app/css/animate.css">
     <script src="app/libs/jquery/jquery-1.11.1.min.js"></script>
-    <link rel="stylesheet" href="app/css/main-3328f651c7.css">
+    <link rel="stylesheet" href="app/css/main-0392678eb6.css">
     <script src="app/libs/jquery.bxslider/jquery.bxslider.min.js"></script>
     <script>
         $(document).ready(function(){
@@ -293,14 +293,33 @@ ini_set('display_startup_errors', TRUE);
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4 col-sm-4">
-                    <div class="seven">
-                        <div class="button_sev">button</div>
+                <div class="col-md-12">
+                    <div class="row">
+                        <div class="buttons">Buttons</div>
                     </div>
                 </div>
-                <div class="col-md-4 col-sm-4">
-                    <div class="eight">
-                        <div class="button_ei">button</div>
+                <div class="col-md-8 col-md-offset-2">
+                    <div class="col-md-6 col-sm-4">
+                        <div class="button_sev">button</div>
+                    </div>
+                    <div class="col-md-6 col-sm-4">
+                        <div class="button_ei">button
+                            <div class="el_hide"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-12">
+                    <div class="row">
+                        <div class="circle_buttons">
+                            <div class="col-md-3">
+                                <div class="cir_one"></div>
+                            </div>
+                            <div class="col-md-3">
+                                <div class="cir_two"></div>
+                            </div>
+                            <div class="col-md-3"></div>
+                            <div class="col-md-3"></div>
+                        </div>
                     </div>
                 </div>
             </div>

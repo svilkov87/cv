@@ -626,7 +626,6 @@ body{
     }
     .four {
       height: 280px;
-      //border: 1px solid #ccc;
       background: #fcfcfc;
       margin-bottom: 20px;
       position: relative;
@@ -1014,11 +1013,47 @@ body{
         -webkit-perspective: 500px;
         perspective: 500px;
         &:hover{
+          animation: rot_90 1s;
+          @keyframes rot_90 {
+            0% {
+              background: #a899ff;
+              -webkit-transform: scale(.75);
+              transform: scale(.75);
+              -webkit-box-shadow: 0px 1px 30px 0px rgba(0, 0, 0, 0.63);
+              -moz-box-shadow: 0px 1px 30px 0px rgba(0, 0, 0, 0.63);
+              box-shadow: 0px 1px 30px 0px rgba(0, 0, 0, 0.63);
+            }
+            50% {
+              -o-transform: rotate(260deg);
+              -ms-transform: rotate(260deg);
+              -moz-transform: rotate(260deg);
+              -webkit-transform: rotate(260deg);
+              transform: rotate(260deg);
+              @include bradius(0px);
+            }
+            60% {
+              @include bradius(0px);
+            }
+            75% {
+              -webkit-transform: scale(.95);
+              transform: scale(.95);
+            }
+            76% {
+              @include bradius(50%);
+              background: #4bccff;
+            }
+            100% {
+              -webkit-transform: scale(1);
+              transform: scale(1);
+            }
+          }
 
         }
       }
     }
   }
+  
+
 }
 
 

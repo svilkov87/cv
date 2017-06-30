@@ -11,21 +11,33 @@
 	<link rel="stylesheet" href="css/bootstrap.min.css">
 	<link rel="stylesheet" href="css/animate.css">
     <script src="libs/jquery/jquery-1.11.1.min.js"></script>
-    <link rel="stylesheet" href="css/main-39074248ac.css">
+    <link rel="stylesheet" href="css/main-a79abfc084.css">
     <script src="libs/jquery.bxslider/jquery.bxslider.min.js"></script>
+    <!--[if lt IE 9]-->
+    <script src="libs/html5shiv/es5-shim.min.js"></script>
+    <script src="libs/html5shiv/html5shiv.min.js"></script>
+    <script src="libs/html5shiv/html5shiv-printshiv.min.js"></script>
+    <script src="libs/respond/respond.min.js"></script>
+    <!--[endif]-->
+    <script src="libs/scrollto/jquery.scrollTo.min.js"></script>
+    <script src="libs/main.js"></script>
+    <script type="text/javascript" src="libs/wow.min.js"></script>
+    <script type="text/javascript">
+        new WOW().init();
+    </script>
     <script>
         $(document).ready(function(){
-            $('.bx_head').bxSlider({
-                mode: 'fade',           // тип перехода между слайдами может быть 'horizontal', 'vertical', 'fade'
+            $('.bxslider').bxSlider({
+                mode: 'horizontal',           // тип перехода между слайдами может быть 'horizontal', 'vertical', 'fade'
                 captions: true,         // отображение title
                 easing: 'easeInOutQuad', // анимация слайда
                 controls: false,         // отображение стрелки - вперед, назад
                 startSlide: 0,          // Показ начнется с заданного слайда
                 infiniteLoop: true,     // показывать первый слайд за последним
                 auto: true,
-                responsive: false,  // сделать автоматический переход
+                responsive: true,  // сделать автоматический переход
                 pager: false,
-                pause: 4200,            // время между сменой слайдов в м-сек
+                pause: 4000,            // время между сменой слайдов в м-сек
                 speed: 500,          // длительность перехода слайда в м-сек
                 useCSS: true           // CSS переходы
             });
@@ -65,7 +77,7 @@
                 <a href="#about_me">Обо мне</a>
             </li>
             <li class="li_side"><a href="#ui">UI-elements</a></li>
-            <li class="li_side"><a href="#">Примеры работ</a></li>
+            <li class="li_side"><a href="#my_works">Примеры работ</a></li>
             <li class="li_side write_me"><a href="#">Контакты</a></li>
         </ul>
     </div>
@@ -185,11 +197,11 @@
         <h2>UI</h2>
         <div class="ui_desc">В данном разделе представлены элементы интерфейса, а так же эффекты, которые я могу использовать в работе. Условно:</div>
     </div>
-    <div class="col-md-12">
+    <!--<div class="col-md-12">-->
+    <div class="col_12">
         <div class="row">
-            <div class="col-md-4 col-sm-4">
+            <div class="col-md-4">
                 <div class="op">
-                    <div class="view_code">view code</div>
                     <img src="img/Cute-Girlnbspfond-ecran-hd3.jpg"/>
                     <!--<img src="http://placehold.it/250/b0b0b0" />-->
                     <div class="top">
@@ -201,19 +213,19 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-4 col-sm-4">
+            <div class="col-md-4">
                 <div class="ot">
                     <img src="img/Cute-Girlnbspfond-ecran-hd3.jpg"/>
                     <div class="top">
                         <p class="he">item</p>
                     </div>
                     <div class="fade"></div>
-                    <div class="bottom">
-                        <p class="bott">description</p>
-                    </div>
+                    <!--<div class="bottom">-->
+                        <!--<p class="bott">description</p>-->
+                    <!--</div>-->
                 </div>
             </div>
-            <div class="col-md-4 col-sm-4">
+            <div class="col-md-4">
                 <div class="three">
                     <img src="img/Cute-Girlnbspfond-ecran-hd3.jpg"/>
                     <div class="top">
@@ -226,7 +238,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-4 col-sm-4">
+            <div class="col-md-4">
                 <div class="four">
                     <div class="nav_wrapp">
                         <span class="menu_touch">menu</span>
@@ -241,7 +253,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-4 col-sm-4">
+            <div class="col-md-4">
                 <div class="five">
                     <div class="nav_wrapp">
                         <span class="menu_touch_five">menu</span>
@@ -256,7 +268,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-4 col-sm-4">
+            <div class="col-md-4">
                 <div class="six">
                     <div class="nav_wrapp">
                         <span class="menu_touch_six">menu</span>
@@ -299,16 +311,83 @@
                 </div>
             </div>
             <div class="col-md-12">
-                <div class="row">
-                    <div class="circle_buttons">
-                        <div class="col-md-3">
-                            <div class="cir_one"></div>
+            <div class="row">
+                <div class="circle_buttons">
+                    <div class="col-md-3">
+                        <div class="cir_one"></div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="cir_two"></div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="cir_three">
+                            <div class="cir_th_border"></div>
                         </div>
-                        <div class="col-md-3">
-                            <div class="cir_two"></div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="cir_four">
+                            <div class="cir_four_border"></div>
                         </div>
-                        <div class="col-md-3"></div>
-                        <div class="col-md-3"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </div>
+</section>
+<section class="hireme">
+    <div class="my_tragets">Мои цели на ближайшую перспективу</div>
+    <ul class="bxslider">
+        <li>Изучение и практика <span class="yellow">нативного JS</span></li>
+        <li><span class="yellow">Unit-тестирование</span> кода</li>
+        <li>Использование в работе JS-фреймфорков <span class="yellow">Angular</span> и <span class="yellow">Coffee Script</span></li>
+        <li>Изучение программы <span class="yellow">Sketch</span></li>
+        <li>Углубленная практика <span class="yellow">адаптивной верски</span></li>
+        <li>Изучение формата <span class="yellow">SVG</span></li>
+    </ul>
+</section>
+<section class="my_works" id="my_works">
+    <div class="col-md-12">
+        <div class="row">
+            <div class="my_w_header">
+                <h2>Мои работы</h2>
+            </div>
+            <div class="example_wrapp">
+                <div class="col-md-4 col-sm-4">
+                    <div class="main_ex">
+                        <a href="http://grandpovar.ru/">
+                            <img src="img/gp.jpg" alt="photo">
+                        </a>
+                        <div class="top">
+                            <p class="header">Grandpovar</p>
+                            <span class="desc">Энциклопедия рецептов</span>
+                        </div>
+                        <div class="second_blcok"></div>
+                        <div class="sb_more">
+                            <div class="item_span"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-4">
+                    <div class="main_ex">
+                        <a href="http://vsemroliki.svtest.ru/">
+                            <img src="img/vsr.jpg" alt="photo">
+                        </a>
+                        <div class="top">
+                            <p class="header">Vsemroliki</p>
+                            <span class="desc">Озвучка рекламных роликов</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-4">
+                    <div class="main_ex">
+                        <a href="http://rbrick-nn.svtest.ru/">
+                            <img src="img/rbr.jpg" alt="photo">
+                        </a>
+                        <div class="top">
+                            <p class="header">Русский Кирпич</p>
+                            <span class="desc">Оптово-розничная продажа строительних материалов</span>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -316,17 +395,5 @@
     </div>
 </section>
 </div>
-<!--[if lt IE 9]-->
-<script src="libs/html5shiv/es5-shim.min.js"></script>
-<script src="libs/html5shiv/html5shiv.min.js"></script>
-<script src="libs/html5shiv/html5shiv-printshiv.min.js"></script>
-<script src="libs/respond/respond.min.js"></script>
-<!--[endif]-->
-<script src="libs/scrollto/jquery.scrollTo.min.js"></script>
-<script src="libs/main.js"></script>
-<script type="text/javascript" src="libs/wow.min.js"></script>
-<script type="text/javascript">
-    new WOW().init();
-</script>
 </body>
 </html>

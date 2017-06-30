@@ -25,22 +25,35 @@ ini_set('display_startup_errors', TRUE);
     <link rel="stylesheet" href="app/css/bootstrap.min.css">
     <link rel="stylesheet" href="app/css/animate.css">
     <script src="app/libs/jquery/jquery-1.11.1.min.js"></script>
-    <link rel="stylesheet" href="app/css/main-0392678eb6.css">
+    <link rel="stylesheet" href="app/css/main-e708bfd526.css">
+    <!--[if lt IE 9]-->
+    <script src="app/libs/html5shiv/es5-shim.min.js"></script>
+    <script src="app/libs/html5shiv/html5shiv.min.js"></script>
+    <script src="app/libs/html5shiv/html5shiv-printshiv.min.js"></script>
+    <script src="app/libs/respond/respond.min.js"></script>
+    <!--[endif]-->
+    <script src="app/libs/scrollto/jquery.scrollTo.min.js"></script>
+    <script src="app/libs/main.js"></script>
+    <script type="text/javascript" src="app/libs/wow.min.js"></script>
+    <script type="text/javascript">
+        new WOW().init();
+    </script>
     <script src="app/libs/jquery.bxslider/jquery.bxslider.min.js"></script>
     <script>
         $(document).ready(function(){
-            $('.bx_head').bxSlider({
-                mode: 'horizontal',           // тип перехода между слайдами может быть 'horizontal', 'vertical', 'fade'
-                captions: true,         // отображение title
-                easing: 'easeInOutQuad', // анимация слайда
-                controls: false,         // отображение стрелки - вперед, назад
-                startSlide: 0,          // Показ начнется с заданного слайда
-                infiniteLoop: true,     // показывать первый слайд за последним
-                auto: true,             // сделать автоматический переход
+            $('.bxslider').bxSlider({
+                mode: 'horizontal',
+                captions: true,
+                easing: 'easeInOutQuad',
+                controls: false,
+                startSlide: 0,
+                infiniteLoop: true,
+                auto: true,
+                responsive: true,
                 pager: false,
-                pause: 4200,            // время между сменой слайдов в м-сек
-                speed: 500           // длительность перехода слайда в м-сек
-//                useCSS: false           // CSS переходы
+                pause: 4500,
+                speed: 500,
+                useCSS: true
             });
         });
     </script>
@@ -218,9 +231,9 @@ ini_set('display_startup_errors', TRUE);
                             <p class="he">item</p>
                         </div>
                         <div class="fade"></div>
-                        <div class="bottom">
-                            <p class="bott">description</p>
-                        </div>
+<!--                        <div class="bottom">-->
+<!--                            <p class="bott">description</p>-->
+<!--                        </div>-->
                     </div>
                 </div>
                 <div class="col-md-4 col-sm-4">
@@ -317,26 +330,40 @@ ini_set('display_startup_errors', TRUE);
                             <div class="col-md-3">
                                 <div class="cir_two"></div>
                             </div>
-                            <div class="col-md-3"></div>
-                            <div class="col-md-3"></div>
+                            <div class="col-md-3">
+                                <div class="cir_three">
+                                    <div class="cir_th_border"></div>
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                <div class="cir_four">
+                                    <div class="cir_four_border"></div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
+    <section class="hireme">
+        <div class="my_tragets">Мои цели на ближайшую перспективу</div>
+        <ul class="bxslider">
+            <li>Изучение и практика <span class="yellow">нативного JS</span></li>
+            <li><span class="yellow">Unit-тестирование</span> кода</li>
+            <li>Использование в работе JS-фреймфорков <span class="yellow">Angular</span> и <span class="yellow">Coffee Script</span></li>
+            <li>Изучение программы <span class="yellow">Sketch</span></li>
+            <li>Углубленная практика <span class="yellow">адаптивной верски</span></li>
+            <li>Изучение формата <span class="yellow">SVG</span></li>
+        </ul>
+    </section>
+    <section class="my_works" id="my_works">
+        <div class="col-md-12">
+            <div class="row">
+
+            </div>
+        </div>
+    </section>
 </div>
-<!--[if lt IE 9]-->
-<script src="app/libs/html5shiv/es5-shim.min.js"></script>
-<script src="app/libs/html5shiv/html5shiv.min.js"></script>
-<script src="app/libs/html5shiv/html5shiv-printshiv.min.js"></script>
-<script src="app/libs/respond/respond.min.js"></script>
-<!--[endif]-->
-<script src="app/libs/scrollto/jquery.scrollTo.min.js"></script>
-<script src="app/libs/main.js"></script>
-<script type="text/javascript" src="app/libs/wow.min.js"></script>
-<script type="text/javascript">
-    new WOW().init();
-</script>
 </body>
 </html>

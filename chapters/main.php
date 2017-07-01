@@ -5,9 +5,7 @@ error_reporting(E_ALL | E_STRICT);
 ini_set('display_errors', TRUE);
 ini_set('display_startup_errors', TRUE);
 
-//    echo "<pre>";
-//    var_dump($_SESSION);
-//    echo "</pre>";
+
 
 ?>
 
@@ -25,7 +23,7 @@ ini_set('display_startup_errors', TRUE);
     <link rel="stylesheet" href="app/css/bootstrap.min.css">
     <link rel="stylesheet" href="app/css/animate.css">
     <script src="app/libs/jquery/jquery-1.11.1.min.js"></script>
-    <link rel="stylesheet" href="app/css/main-e708bfd526.css">
+    <link rel="stylesheet" href="app/css/main-5d2ea93f61.css">
     <!--[if lt IE 9]-->
     <script src="app/libs/html5shiv/es5-shim.min.js"></script>
     <script src="app/libs/html5shiv/html5shiv.min.js"></script>
@@ -89,9 +87,15 @@ ini_set('display_startup_errors', TRUE);
                 <li class="li_side">
                     <a href="#about_me">Обо мне</a>
                 </li>
-                <li class="li_side"><a href="#ui">UI-elements</a></li>
-                <li class="li_side"><a href="#">Примеры работ</a></li>
-                <li class="li_side write_me"><a href="#">Контакты</a></li>
+                <li class="li_side">
+                    <a href="#ui">UI-elements</a>
+                </li>
+                <li class="li_side">
+                    <a href="#my_works">Примеры работ</a>
+                </li>
+                <li class="li_side write_me">
+                    <a href="#contacts">Контакты</a>
+                </li>
             </ul>
         </div>
     </div>
@@ -357,10 +361,121 @@ ini_set('display_startup_errors', TRUE);
             <li>Изучение формата <span class="yellow">SVG</span></li>
         </ul>
     </section>
-    <section class="my_works" id="my_works">
+    <section class="cv_sections" id="my_works">
         <div class="col-md-12">
             <div class="row">
-
+                <div class="my_w_header">
+                    <h2>Мои работы</h2>
+                </div>
+                <div class="example_wrapp">
+                    <div class="col-md-4 col-sm-4">
+                        <div class="main_ex">
+                            <a href="http://grandpovar.ru/">
+                                <img src="app/img/gp.jpg" alt="photo">
+                            </a>
+                            <div class="top">
+                                <p class="header">Grandpovar</p>
+                                <span class="desc">Энциклопедия рецептов</span>
+                            </div>
+                            <div class="second_blcok">
+                                <a href="https://github.com/svilkov87/povar" class="git">github</a>
+                                <div class="header"></div>
+                                <ul class="tech">
+                                    <li class="li_tech">html5, bootstrap (grid only)</li>
+                                    <li class="li_tech">css3</li>
+                                    <li class="li_tech">JS (Jquery)</li>
+                                    <li class="li_tech">php, mysql (pdo)</li>
+                                </ul>
+                            </div>
+                            <div class="sb_more">
+                                <div class="item_span"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-4">
+                        <div class="main_ex">
+                            <a href="http://vsemroliki.svtest.ru/">
+                                <img src="app/img/vsr.jpg" alt="photo">
+                            </a>
+                            <div class="top">
+                                <p class="header">Vsemroliki</p>
+                                <span class="desc">Озвучка рекламных роликов</span>
+                            </div>
+                            <div class="second_blcok">
+                                <a href="https://github.com/svilkov87/project_audio" class="git">github</a>
+                                <div class="header"></div>
+                                <ul class="tech">
+                                    <li class="li_tech">html5, bootstrap (grid only)</li>
+                                    <li class="li_tech">css3, sass ( scss )</li>
+                                    <li class="li_tech">JS (Jquery)</li>
+                                    <li class="li_tech">php, mysql (pdo)</li>
+                                    <li class="li_tech">gulp</li>
+                                </ul>
+                            </div>
+                            <div class="sb_more">
+                                <div class="item_span"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-4">
+                        <div class="main_ex">
+                            <a href="http://rbrick-nn.svtest.ru/">
+                                <img src="app/img/rbr.jpg" alt="photo">
+                            </a>
+                            <div class="top">
+                                <p class="header">Русский Кирпич</p>
+                                <span class="desc">Оптово-розничная продажа строительних материалов</span>
+                            </div>
+                            <div class="second_blcok">
+                                <a href="https://github.com/svilkov87/rbrick" class="git">github</a>
+                                <div class="header"></div>
+                                <ul class="tech">
+                                    <li class="li_tech">html5, bootstrap (grid only)</li>
+                                    <li class="li_tech">css3, sass ( scss )</li>
+                                    <li class="li_tech">JS (Jquery)</li>
+                                    <li class="li_tech">php, mysql (pdo)</li>
+                                    <li class="li_tech">gulp</li>
+                                </ul>
+                            </div>
+                            <div class="sb_more">
+                                <div class="item_span"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="cv_sections" id="contacts">
+        <div class="title_section">
+            <h2>Связаться со мной</h2>
+        </div>
+        <div class="content_section">
+            <div class="row">
+                <div class="col-md-6 col-md-offset-3">
+                    <div class="contact_wrapp">
+                        <div class="err_block">
+                            Не все поля заполнены
+                        </div>
+                        <div class="modal_confirm">
+                            Спасибо!
+                        </div>
+                        <div class="modal_forms">
+                            <form action="" method="post" id="my_form">
+                                <div class="form_line">
+                                    <input type="text" name="name" class="form_style" id="name" placeholder="Укажите Ваше имя или компанию">
+                                </div>
+                                <div class="form_line">
+                                    <input type="text" name="s_name" class="form_style" id="s_name" placeholder="Адрес электронной почты или телефон(можно иное)">
+                                </div>
+                                <div class="form_line">
+                                    <textarea name="theme" class="form_style" id="modal_field" cols="30" rows="10" placeholder="Сообщение"></textarea>
+                                </div>
+                                <button type="submit" name="enter" class="btn_modal">Написать мне</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </section>

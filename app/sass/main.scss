@@ -429,6 +429,7 @@ body{
       }
       .ui_desc {
         padding: 25px;
+        font-weight: 300;
       }
     }
     .op {
@@ -1173,7 +1174,7 @@ body{
 //my works
   #my_works {
     margin-left: 280px;
-    min-height: 650px;
+    min-height: 450px;
     padding: 2rem 0;
     background: #fff;
     @include tablet_max {
@@ -1247,6 +1248,7 @@ body{
       }
       .second_blcok {
         position: absolute;
+        border: 1px solid #ccc;
         right: 0;
         left: 0;
         top: -100%;
@@ -1254,6 +1256,19 @@ body{
         height: 100%;
         background: #fff;
         @include transition(.2s);
+        .git {
+          display: block;
+          padding: 1.5em;
+          text-align: center;
+        }
+        .tech {
+          .li_tech {
+            padding: 0.75em;
+            font-size: 0.75em;
+            margin: 0 10px;
+            border-bottom: 1px dashed #ccc;
+          }
+        }
       }
       .sb_more{
         position: absolute;
@@ -1304,12 +1319,12 @@ body{
           background: transparent;
           &:before {
             transform: rotate(45deg) translate(5px, 6px);
-            background: #000;
+            background: $bg_burg;
           }
 
           &:after {
             transform: rotate(-45deg) translate(5px, -6px);
-            background: #000;
+            background: $bg_burg;
           }
         }
       }
@@ -1317,6 +1332,77 @@ body{
   }
 }
 
+//contacts
+
+  #contacts {
+    margin-left: 280px;
+    height: auto;
+    overflow: hidden;
+    padding: 2rem 0;
+    background: #fff;
+    @include tablet_max {
+      margin-left: 0;
+      padding: 60px 15px;
+    }
+    @include large {
+      //min-height: 900px;
+      height: auto;
+      overflow: hidden;
+    }
+    .title_section {
+      margin-bottom: 30px;
+      text-align: center;
+      padding: 2rem 0;
+      h2 {
+        padding-bottom: 1rem;
+        font-weight: 700;
+        color: $contact_orange;
+        text-transform: uppercase;
+        font-size: 1.5625em;
+      }
+    }
+    .content_section {
+      margin-bottom: 50px;
+      .contact_wrapp{
+        .err_block{
+          display: none;
+          color: red;
+        }
+        .modal_confirm {
+          display: none;
+          text-align: center;
+        }
+        .modal_forms {
+          .form_line{
+            margin-bottom: 30px;
+            .form_style {
+              width: 100%;
+              color: #000;
+              border-bottom: 2px solid #000;
+              border-top: none;
+              border-left: none;
+              border-right: none;
+              padding: 10px 0;
+              outline: none;
+            }
+          }
+          .btn_modal {
+            background: $contact_orange;
+            color: #fff;
+            padding: 12px 25px;
+            display: inline-block;
+            line-height: 1;
+            border: none;
+            float: right;
+            outline: none;
+            &:hover {
+              background: #d92d30;
+            }
+          }
+        }
+      }
+    }
+  }
 
 
 
@@ -1337,11 +1423,7 @@ body{
     z-index: 9;
   }
 }
-  .back{
-  @include transition(.3s);
-    -webkit-transform: scale(0.1);
-    transform: scale(0.1);
-}
+
 
 
 

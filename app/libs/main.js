@@ -114,7 +114,7 @@ $(document).ready(function(){
             $.ajax({
                 url: "../../ajax/upload.php",
                 type: "POST",
-                data: $('.myform').serialize(),
+                data: $('#my_form').serialize(),
                 dataType: "html"
             }).done(function(){
                 // $('#myModlal').css("display" , "none");

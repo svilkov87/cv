@@ -13,6 +13,13 @@
   -webkit-transform: translateY($px);
   transform: translateY($px);
 }
+@mixin rotate($px){
+  -o-transform: rotate($px);
+  -ms-transform: rotate($px);
+  -moz-transform: rotate($px);
+  -webkit-transform: rotate($px);
+  transform: rotate($px);
+}
 @mixin scale ($px) {
   -webkit-transform: scale($px);
   transform: scale($px);

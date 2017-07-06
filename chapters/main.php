@@ -23,7 +23,7 @@ ini_set('display_startup_errors', TRUE);
     <link rel="stylesheet" href="app/css/bootstrap.min.css">
     <link rel="stylesheet" href="app/css/animate.css">
     <script src="app/libs/jquery/jquery-1.11.1.min.js"></script>
-    <link rel="stylesheet" href="app/css/main-5d2ea93f61.css">
+    <link rel="stylesheet" href="app/css/main-a5eb0076c6.css">
     <!--[if lt IE 9]-->
     <script src="app/libs/html5shiv/es5-shim.min.js"></script>
     <script src="app/libs/html5shiv/html5shiv.min.js"></script>
@@ -131,7 +131,7 @@ ini_set('display_startup_errors', TRUE);
                     </div>
                     <div class="items_profile">
                         <div class="col-md-6">
-                            <ul class="ul_info">
+                            <ul class="ul_info wow fadeInLeft" data-wow-delay=".8s">
                                 <li class="li_info"><span>Возраст:</span> 30лет</li>
                                 <li class="li_info"><span>Локация:</span> Нижний Новгород</li>
                                 <li class="li_info"><span>Электронный адрес:</span> svilkov87@mail.ru</li>
@@ -143,6 +143,8 @@ ini_set('display_startup_errors', TRUE);
                         <div class="col-md-6">
                             <div class="row">
                                 <div class="main_wr wow fadeIn" data-wow-delay=".8s">
+                                    <div class="l"></div>
+                                    <div class="r"></div>
                                     <div class="skills_wrapp">
                                         <div class="sk_top">
                                             <span>В ближайшей перспективе - Pug</span>
@@ -153,6 +155,8 @@ ini_set('display_startup_errors', TRUE);
                                     </div>
                                 </div>
                                 <div class="main_wr wow fadeIn" data-wow-delay="1s">
+                                    <div class="l"></div>
+                                    <div class="r"></div>
                                     <div class="skills_wrapp">
                                         <div class="sk_top">
                                             <span>Использую препроцессор SCSS</span>
@@ -163,6 +167,8 @@ ini_set('display_startup_errors', TRUE);
                                     </div>
                                 </div>
                                 <div class="main_wr wow fadeIn" data-wow-delay="1.1s">
+                                    <div class="l"></div>
+                                    <div class="r"></div>
                                     <div class="skills_wrapp">
                                         <div class="sk_top">
                                             <span>Изучение нативного JS +(Angular,React)</span>
@@ -173,6 +179,8 @@ ini_set('display_startup_errors', TRUE);
                                     </div>
                                 </div>
                                 <div class="main_wr wow fadeIn" data-wow-delay="1.3s">
+                                    <div class="l"></div>
+                                    <div class="r"></div>
                                     <div class="skills_wrapp">
                                         <div class="sk_top">
                                             <span>Процедурный стиль</span>
@@ -183,6 +191,8 @@ ini_set('display_startup_errors', TRUE);
                                     </div>
                                 </div>
                                 <div class="main_wr wow fadeIn" data-wow-delay="1.5s">
+                                    <div class="l"></div>
+                                    <div class="r"></div>
                                     <div class="skills_wrapp">
                                         <div class="sk_top">
                                             <span>Сборка проекта</span>
@@ -193,6 +203,8 @@ ini_set('display_startup_errors', TRUE);
                                     </div>
                                 </div>
                                 <div class="main_wr wow fadeIn" data-wow-delay="1.7s">
+                                    <div class="l"></div>
+                                    <div class="r"></div>
                                     <div class="skills_wrapp">
                                         <div class="sk_top">
                                             <span><a href="https://github.com/svilkov87">Мой аккаунт</a></span>
